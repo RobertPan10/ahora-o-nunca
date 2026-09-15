@@ -1,5 +1,5 @@
 // ===== WHATSAPP LINK — actualizar cuando exista el grupo =====
-const WHATSAPP_LINK = '#';
+const WHATSAPP_LINK = 'https://chat.whatsapp.com/E4Vi3AJDJFbFQWJ1yOtyE0';
 document.querySelectorAll('#whatsappCta, .btn-nav, .sticky-cta').forEach(el => {
   if (el.tagName === 'A') el.href = WHATSAPP_LINK;
 });
